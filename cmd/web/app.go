@@ -8,7 +8,7 @@ import (
 )
 
 func LoadResume() (*data.Resume, error) {
-	resp, err := http.Get("/resume.json")
+	resp, err := http.Get("resume.json")
 	if err != nil {
 		return nil, err
 	}
