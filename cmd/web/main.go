@@ -40,4 +40,6 @@ func main() {
 	vecty.RenderBody(&App{
 		Resume: resume,
 	})
+
+	select {}
 }
