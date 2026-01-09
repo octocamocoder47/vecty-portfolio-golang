@@ -37,6 +37,7 @@ func main() {
 		log.Fatal(err)
 	}
 
+	vecty.SetTitle("Pransh Gupta - Resume")
 	vecty.RenderBody(&App{
 		Resume: resume,
 	})
